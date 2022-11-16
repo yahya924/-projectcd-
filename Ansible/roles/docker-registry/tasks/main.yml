@@ -3,13 +3,13 @@
 
 - name: login
   docker_login:
-    #email: "nourelhouda.fdhila@esprit.tn"
-    username: "nourfdhila123"
-    password: "181jmt3049"
+    #email: "safta.yahya@esprit.tn"
+    username: "yahya69"
+    password: "3y8eg4JDZkbm4a6"
     reauthorize: yes
 - name: docker push
   docker_image:
     name: appfront:latest
-    repository: nourfdhila123/cdnour
+    repository: yahya69/repo
     push: yes
     source: local 
