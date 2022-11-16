@@ -3,7 +3,7 @@
           docker_image:
             name: appfront
             build:
-             path: /var/lib/jenkins/workspace/cd
+             path: /var/lib/jenkins/workspace/cd/Ansible
              pull: no
             source: build
             state: present
